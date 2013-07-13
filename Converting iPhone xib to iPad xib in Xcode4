@@ -1,0 +1,17 @@
+1. Select the xib file in your project 
+
+2. Edit - Duplicate - Make the copy of the file with a diffrent name like  xxx_iPad.xib
+
+3. Select the new xib file and Open as Source code 
+
+4. Convert the <archive type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="7.10"> to 
+    
+    <archive type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="7.10">
+
+5.  Search for “IBCocoaTouchFramework” and Replace all occurrences with “IBIPadFramework”
+
+6.  Save the file and Open As > Interface Builder – iOS The file might still look like a regular iPhone xib,
+
+7. After Changeing the Status Bar to “Black” and you will see the iPad XIB ....
+
+
